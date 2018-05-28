@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', Raleway, Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+.navbar {
+    background-color: #464646;
+    padding: .8rem;
+
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    transform: translateY(-50%);
+    background-color: #464646;
+    opacity: 0.7;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-desc{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lead {
+    font-size: 22px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.06737em;
+    line-height: 1.36842em;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.06071em;
+    line-height: 1.5;
+}
+
+
+#home{
+    background: url("img/camera_moving_along.gif") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.padding{
+    padding: 80px 0;
+}
+
+.padding img{
+    width: 100%;
+}
+
+#fixed{
+    background: url("img/code.png") no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    background-color: #464646;
+    padding: 5% 5% 10% 5%;
+    color: #FFFFFF;
+}
+
+.fa{
+    padding: 15px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.fa:hover{
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.icon{
+    max-width: 200px;
+}
+
+h2{
+    text-align: center;
+    text-size: 30px;
+    font-family: Hind, Helvetica, Arial, sans-serif;
+}
+h5{
+    color: #FFFFFF;
+
+}
+
+.blank {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.06071em;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+
+    .landing-text h1{
+        font-size: 30px;
+    }
+
+    .fa{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+
+}
